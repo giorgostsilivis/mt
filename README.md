@@ -30,7 +30,7 @@ python3 -m venv mt
 source mt/bin/activate
 ```
 
-Install the dependencies and devDependencies and start the server.
+Install the dependencies
 
 ```sh
 cd mt
