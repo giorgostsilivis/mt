@@ -14,7 +14,7 @@ if __name__ == '__main__':
 
     try:
         os.mkdir('input')
-        os.mkdir('input')
+        os.mkdir('output')
         os.mkdir('processed')
         print('Directories created.')
     except:
