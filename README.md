@@ -1,4 +1,4 @@
-#  Assignment: Marine Traffic File Tool
+#  Assignment: MarineTraffic File Tool
 
 
 ### Description
@@ -30,7 +30,7 @@ python3 -m venv mt
 source mt/bin/activate
 ```
 
-Install the dependencies and devDependencies and start the server.
+Install the dependencies
 
 ```sh
 cd mt
@@ -65,7 +65,6 @@ To kill background running process:
 ```sh
 pkill -f test.py
 ```
-
 
 
 
