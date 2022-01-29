@@ -43,11 +43,12 @@ pip install -r requirements.txt
 ```sh
 python3 main.py
 ```
+> Essential directories and log file are auto-generated.
 
 ### Demo use
 >Move all csv files from mt/demo_files to mt/input.
 Files will get parsed and one output file will get generated in mt/output folder. Finally, input files will get archived into mt/processed folder while our demo database will have already stored ingested data.
->app.log auto-generated log file provides essential application's logs.
+>Finally, <app.log> auto-generated log file provides essential application's logs.
 
 
 
