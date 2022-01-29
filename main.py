@@ -4,12 +4,24 @@ import schedule
 import time
 import logging
 import jobs
+import os
 
 
 if __name__ == '__main__':
 
     logging.basicConfig(level=logging.INFO,filename='app.log', filemode='w', format='%(asctime)s %(name)s - %(levelname)s - %(message)s')
     logging.info('Application started')
+
+    try:
+        os.mkdir('input')
+        os.mkdir('input')
+        os.mkdir('processed')
+        print('Directories created.')
+    except:
+        print('All directories are already created')
+        pass
+
+
 
     try:
         jobs.myvars()

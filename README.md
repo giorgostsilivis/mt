@@ -15,13 +15,13 @@ This project uses a number of open source projects to work properly:
 - [Pandas] - Data analysis and manipulation tool
 - [Sqlite] - Demo in memory database
 
-##### First, clone the following git [public repository][dill]. Then, proceed to following steps.
+##### First, clone the following git [public repository][dill] in a folder of your preference. Then, proceed to following steps.
 
 ## Installation
 
 Application requires [Python](https://www.python.org/) v3.8 and pip3 to run on Linux Ubuntu. Also, install virtualenv to create a Python virtual environment.
 ```sh
-sudo pip3 install virtualenv 
+sudo pip3 install virtualenv
 ```
 
 Create and activate virtual environment.
@@ -46,7 +46,8 @@ python3 main.py
 
 ### Demo use
 >Move all csv files from mt/demo_files to mt/input.
-Files will get parsed and one output file will get generated in mt/output folder. Finally, input files get archived into mt/processed folder while our demo database will have already stored ingested data.
+Files will get parsed and one output file will get generated in mt/output folder. Finally, input files will get archived into mt/processed folder while our demo database will have already stored ingested data.
+>app.log auto-generated log file provides essential application's logs.
 
 
 
